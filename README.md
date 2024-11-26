@@ -18,7 +18,7 @@ Welcome to The Quiz, a TypeScript quiz application designed to test your knowled
 
 ## Preview
 
-![screenshot](./public/screenshot_home.png)
+![screenshot](./public/screenshot-home.png)
 ![screenshot](./public/screenshot.png)
 ![screenshot](./public/screenshot_congrats.png)
 
@@ -78,7 +78,8 @@ Run the development server:
 npm run dev
 ```
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you'd like to contribute to The Quiz, please fork the repository, make your changes, and open a pull request.
 
 ## Live Demo
