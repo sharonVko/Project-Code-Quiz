@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Quiz </title>
+</head>
+
+<body>
+  <div id="app">
+
+    <div id="home">
+      <h1>Code Quiz</h1>
+      <div class="selectionBox">
+        <button class="gameSelBtn" type="button" id="easyGermanBtn">DEUTSCH ~ <span>leicht</span></button>
+        <button class="gameSelBtn" type="button" id="hardGermanBtn">DEUTSCH - <span>schwer</span> </button>
+        <button class="gameSelBtn" type="button" id="mixedGermanBtn">DEUTSCH - <span>gemischt</span> </button>
+        <button class="gameSelBtn" type="button" id="easyEnglishBtn">ENGLISH - <span>easy</span> </button>
+        <button class="gameSelBtn" type="button" id="hardEnglishBtn">ENGLISH - <span> hard</span></button>
+        <button class="gameSelBtn" type="button" id="mixedEnglishBtn">ENGLISH - <span>mixed</span> </button>
+      </div>
+    </div>
+    <div class="hidden" id="quiz">
+      <!-- <div class="container"> -->
+      <div class="progress2 progress-moved">
+        <div class="progress-bar2">
+        </div>
+      </div>
+      <!-- </div> -->
+
+      <div id="progressCounter"></div>
+      <h2 id="question"></h2>
+      <form>
+        <div class="answerBox">
+
+          <label for="answerAbtn">
+            <input aria-label="Anwer A" type="radio" name="choice" id="answerAbtn" value="0" required>
+            <div id="answerTextA"></div>
+          </label>
+          <label for="answerBbtn">
+            <input aria-label="Anwer B" type="radio" name="choice" id="answerBbtn" value="1">
+            <div id="answerTextB"></div>
+          </label>
+          <label for="answerCbtn">
+            <input aria-label="Anwer C" type="radio" name="choice" id="answerCbtn" value="2">
+            <div id="answerTextC"></div>
+          </label>
+          <label for="answerDbtn">
+            <input aria-label="Anwer D" type="radio" name="choice" id="answerDbtn" value="3">
+            <div id="answerTextD"></div>
+          </label>
+
+        </div>
+      </form>
+
+
+
+      <div class="answerBtnContainer">
+        <button id="submitAnswer" class="button" type="button">Validate</button>
+      </div>
+    </div>
+    <div class="hidden" id="leaderBoard">
+      <h3 id="points"></h3>
+      <h2 class="congrats">Congratulations! 🎉 You've completed the quiz!</h2>
+
+      <!-- <div class="table">
+        <div>Name</div>
+        <div>Points</div>
+        <div>Time</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+        <div>...</div>
+      </div> -->
+
+
+      <button type="button" id="returnHome">Start new quiz</button>
+    </div>
+  </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

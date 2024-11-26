@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Welche Art von Sprache ist TypeScript?",
+        "answers": [
+            "Eine Skriptsprache",
+            "Eine Programmiersprache",
+            "Eine Markup-Sprache",
+            "Eine Datenbank-Sprache"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Welches Präfix wird verwendet, um eine Typdefinition in TypeScript zu erstellen?",
+        "answers": [
+            "@",
+            "#",
+            "%",
+            "!"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Welche der folgenden Optionen ist eine gültige Typdeklaration in TypeScript?",
+        "answers": [
+            "let name: string;",
+            "var name: String;",
+            "const name: str;",
+            "number name;"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Wie kann man in TypeScript eine Funktion deklarieren?",
+        "answers": [
+            "function myFunction() {}",
+            "var myFunction = function() {}",
+            "let myFunction = () => {};",
+            "Alle oben genannten"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Welches Schlüsselwort wird verwendet, um eine Klasse in TypeScript zu deklarieren?",
+        "answers": [
+            "class",
+            "new",
+            "type",
+            "interface"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Wie nennt man das Konzept, bei dem TypeScript den Typ von Variablen zur Kompilierzeit überprüft?",
+        "answers": [
+            "Typüberprüfung",
+            "Typinferenz",
+            "Typüberprüfung zur Kompilierzeit",
+            "Typüberprüfung zur Laufzeit"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Welche der folgenden Aussagen ist korrekt bezüglich Generics in TypeScript?",
+        "answers": [
+            "Generics sind nur für Arrays gedacht.",
+            "Generics ermöglichen es, Typen zu parametrisieren.",
+            "Generics sind nur für Funktionen gedacht.",
+            "Generics sind nicht in TypeScript verfügbar."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Welche der folgenden Optionen ist eine korrekte Verwendung von Interfaces in TypeScript?",
+        "answers": [
+            "interface Animal { name: string; }",
+            "type Animal = { name: string; }",
+            "class Animal { name: string; }",
+            "const Animal = { name: string; }"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Wie kann man in TypeScript eine Methode einer Klasse deklarieren?",
+        "answers": [
+            "method() {}",
+            "function method() {}",
+            "method: function() {}",
+            "method: () => {}"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Welches Schlüsselwort wird verwendet, um eine abstrakte Methode in einer abstrakten Klasse in TypeScript zu deklarieren?",
+        "answers": [
+            "abstract",
+            "virtual",
+            "override",
+            "static"
+        ],
+        "correct": 0
+    }
+]

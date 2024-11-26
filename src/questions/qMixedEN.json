@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What type of language is TypeScript?",
+        "answers": [
+            "A scripting language",
+            "A programming language",
+            "A markup language",
+            "A database language"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which prefix is used to create a type definition in TypeScript?",
+        "answers": [
+            "@",
+            "#",
+            "%",
+            "!"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of the following options is a valid type declaration in TypeScript?",
+        "answers": [
+            "let name: string;",
+            "var name: String;",
+            "const name: str;",
+            "number name;"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "How can you declare a function in TypeScript?",
+        "answers": [
+            "function myFunction() {}",
+            "var myFunction = function() {}",
+            "let myFunction = () => {};",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which keyword is used to declare a class in TypeScript?",
+        "answers": [
+            "class",
+            "new",
+            "type",
+            "interface"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the concept called where TypeScript checks the type of variables at compile time?",
+        "answers": [
+            "Type checking",
+            "Type inference",
+            "Compile-time type checking",
+            "Runtime type checking"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of the following statements is correct regarding generics in TypeScript?",
+        "answers": [
+            "Generics are only for arrays.",
+            "Generics allow you to parameterize types.",
+            "Generics are only for functions.",
+            "Generics are not available in TypeScript."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of the following is a correct use of interfaces in TypeScript?",
+        "answers": [
+            "interface Animal { name: string; }",
+            "type Animal = { name: string; }",
+            "class Animal { name: string; }",
+            "const Animal = { name: string; }"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "How do you declare a method of a class in TypeScript?",
+        "answers": [
+            "method() {}",
+            "function method() {}",
+            "method: function() {}",
+            "method: () => {}"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which keyword is used to declare an abstract method in an abstract class in TypeScript?",
+        "answers": [
+            "abstract",
+            "virtual",
+            "override",
+            "static"
+        ],
+        "correct": 0
+    }
+]
