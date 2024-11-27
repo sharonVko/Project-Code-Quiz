@@ -84,4 +84,4 @@ Contributions are welcome! If you'd like to contribute to The Quiz, please fork 
 
 ## Live Demo
 
-Check out the live demo on Netlify: The Quiz on Netlify
+Check out the live demo on Netlify:[The Code Quiz on Netlify](https://the-code-quiz.netlify.app/)
