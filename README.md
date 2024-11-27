@@ -1,6 +1,6 @@
-# The Quiz
+# Code Quiz 👩🏻‍💻
 
-Welcome to The Quiz, a TypeScript quiz application designed to test your knowledge with a plethora of questions. This interactive quiz offers several features to enhance your learning experience.
+Welcome to Code Quiz, a TypeScript quiz application designed to test your knowledge with a plethora of questions. This interactive quiz offers several features to enhance your learning experience.
 
 ## Features
 
@@ -52,7 +52,7 @@ This project was programmed by a team of two developers:
 
 ## Getting Started
 
-To get started with The Quiz, follow these steps:
+To get started with Code Quiz, follow these steps:
 
 Clone the repository:
 
@@ -80,7 +80,7 @@ npm run dev
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to The Quiz, please fork the repository, make your changes, and open a pull request.
+Contributions are welcome! If you'd like to contribute to Code Quiz, please fork the repository, make your changes, and open a pull request.
 
 ## Live Demo
 
