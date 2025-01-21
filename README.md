@@ -22,6 +22,10 @@ Welcome to Code Quiz, a TypeScript quiz application designed to test your knowle
 ![screenshot](./public/screenshot.png)
 ![screenshot](./public/screenshot_congrats.png)
 
+## Live Demo
+
+Check out the live demo on Netlify:[The Code Quiz on Netlify](https://the-code-quiz.netlify.app/)
+
 ## Navigation
 
 Users can navigate through the quiz by using buttons to select the difficulty level and language preference. The quiz is designed to be intuitive, making it easy to switch settings and progress through questions.
@@ -81,7 +85,3 @@ npm run dev
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to Code Quiz, please fork the repository, make your changes, and open a pull request.
-
-## Live Demo
-
-Check out the live demo on Netlify:[The Code Quiz on Netlify](https://the-code-quiz.netlify.app/)
